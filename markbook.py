@@ -4,7 +4,10 @@ Group members: Erica, Lisa, Judy
 """
 from typing import Dict
 
-
+name = str(input("What is the name of the student? ")
+due = str(input("When is the due date? ")
+point = int(input("What is the point of the student? ")
+            
 def create_assignment(name: str, due: str, points: int) -> Dict:
     """Creates an assignment represented as a dictionary
     
